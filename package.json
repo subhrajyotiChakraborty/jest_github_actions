@@ -2,7 +2,7 @@
   "name": "leaarn_git_hub_actions",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/sum.js",
   "scripts": {
     "test": "jest"
   },
