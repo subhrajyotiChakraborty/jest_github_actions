@@ -1,6 +1,6 @@
 const config = {
   verbose: true,
-  moduleFileExtensions: ["js", "jsx", "mjs"],
+  moduleFileExtensions: ["js", "jsx"],
   collectCoverage: true,
   collectCoverageFrom: ["./src/**/*.js", "!**/node_modules/**"],
   coverageThreshold: {
