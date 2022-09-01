@@ -1,6 +1,6 @@
 {
   "name": "leaarn_git_hub_actions",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

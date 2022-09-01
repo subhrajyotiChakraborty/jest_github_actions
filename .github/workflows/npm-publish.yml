@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "Release Tags: ${{ github.event.input.tags }}"
+          echo "Release Tags: ${{ github.event.inputs.tags }}"
 
   build:
     runs-on: ubuntu-latest
