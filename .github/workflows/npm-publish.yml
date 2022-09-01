@@ -11,6 +11,12 @@ on:
         description: "Release tags"
 
 jobs:
+  printInputs:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "Release Tags: ${{ github.event.input.tags }}"
+
   build:
     runs-on: ubuntu-latest
     steps:
